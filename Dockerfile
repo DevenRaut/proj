@@ -1,5 +1,5 @@
 FROM ubutu/apache2
-WORKDIR /usr/local/apache2/htdocs/
+WORKDIR /var/www/html
 RUN rm index.html 
 RUN touch index.html
 RUN echo "devendra and manthan" > index.html
