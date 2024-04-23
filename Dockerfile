@@ -3,5 +3,5 @@ WORKDIR /var/www/html
 RUN rm index.html 
 RUN touch index.html
 RUN echo "devendra and manthan" > index.html
-EXPOSE 8085
+EXPOSE 80
 CMD   ["apache2ctl","D","FOREGROUND"]
